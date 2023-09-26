@@ -21,7 +21,6 @@ flask run
 ``` 
 
 ## Execultando as migrações   
-* criando pasta para as migrations
 ```sh
 flask db init
 flask db migrate
@@ -29,7 +28,7 @@ flask db upgrade
 ```
 esses comandos vão criar a tabela na banco de dados
 
-### criar um arquivo `.env`
+### arquivo `.env`
 ```
 USER=''
 HOST=''
