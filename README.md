@@ -11,6 +11,13 @@ psycopg2-binar >= 2.9.7
 python-dotenv >= 1.0.0
 ```
 
+## ambiente virtual
+```sh
+python3.x -m venv venv     # criar o ambiente virtual
+source .venv/bin/activate  # ativar o ambiente virtual
+deactivate                 # desativar o ambiente virtual
+```
+
 ## como execultar a API
 ```sh
 export FLASK_APP=app
@@ -65,7 +72,7 @@ DB=''
 }
 ```
 
-* [`DELETE`]: `/delete/food/<food_id>` deletar um alimento no cardápio pelo **ID**
+* [`DELETE`]: `/delete/food/<id>` deletar um alimento no cardápio pelo **ID**
 
 ##
 > Para esse projeto eu estou usando o **postgresql** como banco de dados.
