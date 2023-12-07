@@ -7,13 +7,13 @@ Flask >= 2.3.3
 Flsk-Cors >= 4.0.0
 Flask-Migrate >= 4.0.5
 Flask-SQLAlchemy >= 3.1.1
-psycopg2-binar >= 2.9.7
+psycopg2-binary >= 2.9.7
 python-dotenv >= 1.0.0
 ```
 
 ## ambiente virtual
 ```sh
-python3.x -m venv venv     # criar o ambiente virtual
+python3.x -m venv .venv     # criar o ambiente virtual
 source .venv/bin/activate  # ativar o ambiente virtual
 deactivate                 # desativar o ambiente virtual
 ```
